@@ -15,6 +15,16 @@ Named Colors: http://bit.ly/1g8MdPc
 
 ********************************************************************************
 */
-
-
-
+p {
+  color: green;
+}
+h1 {
+    text-align: center;
+}
+a {
+   text-decoration:none; 
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    background-color: #FF1493;
+}
