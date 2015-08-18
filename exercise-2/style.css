@@ -42,5 +42,29 @@ html {
 *****************************************************************************
 */
 
+h1 {
+  margin-top: 60px;
+}
 
+img {
+  padding-right: 10px;
+}
 
+li {
+  display: inline;
+  margin: 10px;
+}
+
+nav {
+background-color: white;
+position: fixed;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+width: 100%;
+}
+
+body {
+  background-image: url("http://uploads1.wikiart.org/images/mark-rothko/no-5-no-22.jpg");
+  background-color: yellow;
+}
