@@ -52,7 +52,7 @@ img {
 
 li {
   display: inline;
-  margin: 10px;
+  padding-right: 10px;
 }
 
 nav {
@@ -62,6 +62,7 @@ border-style: solid;
 border-color: gray;
 border-width: 1px;
 width: 100%;
+text-align: center;
 }
 
 body {

@@ -72,3 +72,33 @@ CSS Selectors Cheatsheet: http://bit.ly/1g2Yk1k
 ********************************************************************************
 */
 
+#about {
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+#about {
+  margin-left: 30px;
+}
+
+blockquote {
+  background-image: url("http://bit.ly/1IlHeMx");
+}
+
+nav ul {
+  color: blue;
+}
+
+
+.image-1 {
+  float: left;
+}
+
+.image-2 {
+  float: right;
+}
