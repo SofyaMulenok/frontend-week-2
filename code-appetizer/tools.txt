@@ -1,0 +1,12 @@
+HTML + CSS cheatsheet: http://bit.ly/1f6nQFz
+Named Colors: http://bit.ly/1g8MdPc
+
+Image placeholders:
+  http://placekitten.com/
+  http://lorempixel.com/
+
+Text placeholders:
+  http://hipsum.co/
+  http://www.fillerati.com/
+
+

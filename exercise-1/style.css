@@ -1,0 +1,30 @@
+/*******************************************************************************
+
+Work with your partner on the following.
+
+Make the following changes using style.css:
+
+  1. Make paragraphs green
+  2. Make h1's text centered
+  3. Remove the underline from links
+  4. Change the font of the entire document to Helevetica Neue with two fallback fonts.
+  5. Change the background of the entire page to your favorite color
+
+HTML + CSS cheatsheet: http://bit.ly/1f6nQFz
+Named Colors: http://bit.ly/1g8MdPc
+
+********************************************************************************
+*/
+p {
+  color: green;
+}
+h1 {
+    text-align: center;
+}
+a {
+   text-decoration:none; 
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    background-color: #FF1493;
+}

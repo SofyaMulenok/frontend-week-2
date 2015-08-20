@@ -1,0 +1,71 @@
+/* Exercise 1 */
+p {
+  color: green
+}
+
+h1 {
+  text-align: center
+}
+
+a {
+  text-decoration: none
+}
+
+html {
+  font-family: Helvetica Neue, Arial;
+  background: whitesmoke;
+}
+
+
+/*******************************************************************************
+  Exercise 2
+
+  Work with your partner on the following.
+
+  Make the following changes using style.css:
+
+    1. Add a 60 pixel margin to the top of h1's
+    2. Add right padding of 10 pixels to all images
+    3. Make the bulleted list items line up horizontally (with margin between
+         them) instead of stack vertically (there are two ways to do this!)
+    4. Make the nav element have a fixed position, a white background,  a
+         solid 1 pixel gray border, and a width filling the full width
+         of the screen
+    5. Make the entire page have a background image and a background color as a fallback
+
+  HTML + CSS cheatsheet: http://bit.ly/1f6nQFz
+  Named Colors: http://bit.ly/1g8MdPc
+  Cool textures: http://subtlepatterns.com/
+  http://placekitten.com/
+
+
+*****************************************************************************
+*/
+
+h1 {
+  margin-top: 60px;
+}
+
+img {
+  padding-right: 10px;
+}
+
+li {
+  display: inline;
+  padding-right: 10px;
+}
+
+nav {
+background-color: white;
+position: fixed;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+width: 100%;
+text-align: center;
+}
+
+body {
+  background-image: url("http://uploads1.wikiart.org/images/mark-rothko/no-5-no-22.jpg");
+  background-color: yellow;
+}

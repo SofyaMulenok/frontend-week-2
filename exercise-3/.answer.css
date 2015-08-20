@@ -1,0 +1,103 @@
+/* Exercise 1 */
+
+p {
+  color: green
+}
+
+h1 {
+  text-align: center
+}
+
+a {
+  text-decoration: none
+}
+
+html {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  background: whitesmoke url(http://subtlepatterns.com/patterns/contemporary_china_2.png);
+}
+
+/* Exercise 2 */
+
+h1 {
+  margin-top: 60px;
+}
+
+img {
+  padding-right: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+  border: 1px solid gray;
+}
+
+/* Exercise 3 */
+
+#about{
+  border: 1px solid green;
+}
+
+#services { border: 1px solid blue;}
+
+p {
+  margin-left: 30px;
+}
+
+.highlight{
+  background: yellow;
+}
+
+blockquote {
+  background: url(http://bit.ly/1GE00r0);
+  font-size: 24px;
+  color: white;
+}
+
+ul > li {
+  border: 1px solid red;
+}
+
+ol li {
+  background: aqua;
+}
+
+img {
+  float: left;
+}
+
+img.image-2 {
+  float: right;
+}
+
+
+/* Bonus */
+
+/* One solution to get the container to expand to include the floated elements: float the container too. */
+section {
+  float: left;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ol > li:first-child, ul > li:first-child {
+  text-decoration: underline;
+}
+
+ol > li:nth-child(2n+1), ul > li:nth-child(2n+1) {
+  background: lightgray;
+}
+
+
