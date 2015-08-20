@@ -11,3 +11,18 @@ label {
   width: 100%;
 }
 
+form {
+    border-style: solid;
+    border-width: 50px;
+}
+#parent {
+    display: table;
+    width: 100%;
+}
+
+#form-login {
+display:table-cell;
+text-align: center;
+vertical-align: middle;
+
+}
